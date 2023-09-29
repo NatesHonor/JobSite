@@ -17,7 +17,6 @@
             die("Connection failed: " . $conn->connect_error);
         }
 
-        // Retrieve user input and perform basic input validation
         $username = $_POST["username"];
         $password = $_POST["password"];
         $email = $_POST["email"];
